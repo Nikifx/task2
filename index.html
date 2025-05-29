@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main style="padding: 0 200px">
+
+      <div
+        style="
+          margin-top: 10px;
+          padding: 5px;
+          border: 3px solid black;
+          border-radius: 5px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <h1>Андрияш Илья 21/2 лабораторная 2 HTTP</h1>
+      </div>
+      <div style="display: flex; flex-direction: column">
+        <div
+          style="
+            margin-top: 10px;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 5px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+        <div>
+        <p style="font-size: 40px;">Первичная настройка PUTTY с портом 80 по хосту u68818.kubsu-dev.ru</p>
+      </div>
+          <img  src="putty.png" alt="" />
+        </div>
+
+
+		<div style="display: flex; flex-direction: column">
+      <div
+      style="
+      margin-top: 10px;
+      padding: 5px;
+      border: 3px solid black;
+      border-radius: 5px;
+
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      justify-content: center;
+      "
+    >
+    <div>
+      <p style="font-size: 40px;">Предварительно заходим на порт 58528 и входим чтобы создать каталог </p>
+    </div>
+      <img  src="enterScreen.png" alt="" />
+    </div>
+			<div
+			  style="
+				margin-top: 10px;
+				padding: 5px;
+				border: 3px solid black;
+				border-radius: 5px;
+	
+				display: flex;
+				flex-direction: column;
+	
+				align-items: center;
+				justify-content: center;
+			  "
+			>
+			<div>
+			  <p style="font-size: 40px;">Через mkdir создаем каталог task2 </p>
+			</div>
+			  <img  src="dddd.png" alt="" />
+			</div>
+      <div style="display: flex; flex-direction: column">
+				<div
+				  style="
+					margin-top: 10px;
+					padding: 5px;
+					border: 3px solid black;
+					border-radius: 5px;
+		
+					display: flex;
+					flex-direction: column;
+		
+					align-items: center;
+					justify-content: center;
+				  "
+				>
+				<div>
+				  <p style="font-size: 40px;">Через ls -a можем увидеть папку .ssh с SSH-ключами. В ней лежит публичный и приватный ключи </p>
+				</div>
+				  <img  src="keyScreen.png" alt="" />
+				</div>
+			<div style="display: flex; flex-direction: column">
+				<div
+				  style="
+					margin-top: 10px;
+					padding: 5px;
+					border: 3px solid black;
+					border-radius: 5px;
+		
+					display: flex;
+					flex-direction: column;
+		
+					align-items: center;
+					justify-content: center;
+				  "
+				>
+				<div>
+				  <p style="font-size: 40px;">Через gitclone копируем репозиторий через SSH </p>
+				</div>
+				  <img  src="server2.png" alt="" />
+				</div>
+      <div style="display: flex; flex-direction: column">
+        <div
+          style="
+            margin-top: 10px;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 5px;
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+          "
+        >
+        <div>
+          <p style="font-size: 40px;">Получаем главную страницу методом GET в протоколе HTTP 1.0. <br/>
+            От HTTPS 1.1 он отличается тем, что в HTTPS 1.0 заголовок Host не является обязательным.<br/>
+             Также в HTTP 1.0 используются базовые методы (GET, POST, HEAD), <br/>
+             тогда как в  HTTP/1.1 добавлены новые методы, такие как PUT, DELETE, OPTIONS, TRACE </p>
+        </div>
+          <img  src="1.jpg" alt="" />
+        </div>
+        <div
+          style="
+            margin-top: 10px;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 5px;
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+          "
+        >
+        <p style="font-size: 40px;"> Получаем внутреннюю страницу методом GET в протоколе HTTP 1.1; </p>
+
+          <img src="2.jpg" alt="" />
+        </div>
+        <div
+          style="
+            margin-top: 10px;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 5px;
+
+            display: flex;            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+          "
+        >
+      <p style="font-size: 40px;"> Определяем размер файла file.tar.gz, не скачивая его. <br/>
+          Метод HEAD в HTTP используется для получения только заголовков ответа без тела сообщения.<br/>
+          Сервер возвращает только заголовки ответа, включая Content-Length, который указывает размер файла.<br/>
+          Сам файл не передается.<br/>
+          Информация содержится в Content-length </p>
+
+          <img src="3update.jpg" alt="" />
+        </div>
+        <div
+        style="
+          margin-top: 10px;
+          padding: 5px;
+          border: 3px solid black;
+          border-radius: 5px;
+
+          display: flex;            flex-direction: column;
+
+          align-items: center;
+          justify-content: center;
+        "
+      >
+      <p style="font-size: 40px;">4й номер. <br/>Медиатип — это информация о типе содержимого файла,
+         которая передается в заголовке HTTP-ответа Content-Type. <br/>Например, для файла image.png медиатип будет image/png.  </p>
+
+        <img src="4update.jpg" alt="" />
+      </div>
+      <div
+      style="
+        margin-top: 10px;
+        padding: 5px;
+        border: 3px solid black;
+        border-radius: 5px;
+
+        display: flex;            flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+      "
+    >
+    <p style="font-size: 40px;">Отправляем комментарий на сервер по адресу /index.php. <br/>
+      POST — это HTTP-метод, который используется для отправки данных на сервер.<br/>
+       В отличие от GET, который запрашивает данные, POST передает данные в теле запроса.<br/>
+      Content-Type — это заголовок, который указывает тип данных, передаваемых в теле запроса.<br/>
+      application/x-www-form-urlencoded — это стандартный формат для передачи данных форм в HTTP-запросах. <br/>
+      Content-Length — это заголовок, который указывает размер тела запроса в байтах. </p>
+
+      <img src="5.jpg" alt="" />
+    </div>
+
+    <div
+    style="
+      margin-top: 10px;
+      padding: 5px;
+      border: 3px solid black;
+      border-radius: 5px;
+
+      display: flex;            flex-direction: column;
+
+      align-items: center;
+      justify-content: center;
+    "
+  >
+  <p style="font-size: 40px;">Получаем первые 100 байт файла /file.tar.gz; </p>
+
+    <img src="61.jpg" alt="" />
+  </div>
+  <div
+  style="
+    margin-top: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+
+    display: flex;            flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+  "
+>
+<p style="font-size: 40px;">Определяем кодировку ресурса /index.php. Получаем charset=UTF-8
+  — это стандарт кодировки символов, который позволяет представлять широкий диапазон символов, что делает его подходящим для многоязычного контента. </p>
+
+  <img src="7update.png" alt="" />
+</div>
+<div
+style="
+  margin-top: 10px;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+
+  display: flex;            flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+"
+>
+<p style="font-size: 40px;">Делаем PULL всех скриншотов </p>
+
+<img src="finalPullTask2.png"  style="width: 800px;" />
+</div>
+    </main>
+  </body>
+</html>
